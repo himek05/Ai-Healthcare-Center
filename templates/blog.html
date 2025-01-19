@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Healthcare Center Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* styles.css */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .header {
+        background-color: #004aad;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .header h1 {
+        font-size: 2.5em;
+    }
+    
+    .header p {
+        font-size: 1.2em;
+    }
+    
+    .featured-blog {
+        padding: 40px 0;
+        background-color: #f9f9f9;
+    }
+    
+    .featured-content {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .featured-content img {
+        width: 50%;
+        border-radius: 10px;
+    }
+    
+    .featured-text h3 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+    
+    .featured-text p {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    
+    .read-more {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #004aad;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .read-more:hover {
+        background-color: #002f6c;
+    }
+    
+    .blog-list {
+        padding: 40px 0;
+    }
+    
+    .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    
+    .blog-card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .blog-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .blog-card h3 {
+        margin: 15px 0;
+        font-size: 1.5em;
+    }
+    
+    .blog-card p {
+        padding: 0 15px 20px;
+        font-size: 1em;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Healthcare Center Blog</h1>
+            <p>Your trusted source for AI-driven healthcare insights.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="featured-blog">
+            <div class="container">
+                <h2>Featured Article</h2>
+                <div class="featured-content">
+                    <img src="featured-image.jpg" alt="AI in Healthcare">
+                    <div class="featured-text">
+                        <h3>Revolutionizing Healthcare with AI</h3>
+                        <p>Discover how AI is transforming patient care, diagnosis, and treatment in the modern era.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-list">
+            <div class="container">
+                <h2>Latest Blogs</h2>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <img src="blog1.jpg" alt="Blog 1">
+                        <h3>The Role of AI in Mental Health</h3>
+                        <p>Explore how AI-powered tools are helping diagnose and treat mental health conditions.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                    <article class="blog-card">
+                        <img src="blog2.jpg" alt="Blog 2">
+                        <h3>AI-Powered Diagnostics</h3>
+                        <p>How AI is making diagnostic processes faster and more accurate.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                    <article class="blog-card">
+                        <img src="blog3.jpg" alt="Blog 3">
+                        <h3>Future of Telemedicine with AI</h3>
+                        <p>Discover the potential of AI in enhancing virtual healthcare services.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AI Healthcare Center. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
